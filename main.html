@@ -14,23 +14,29 @@
             text-align: center;
             border: 1px solid black;
         }
+		.left{
+			text-align: left;
+		}
+        .right{
+            text-align: right;
+        }
     </style>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table id="table-1">
+	<table id="table-1" class="middle">
 		<caption>HTML Assignment #3</caption>
 		<tbody>
-			<tr> <td id="t11">left</td> <td id="t12">center</td> <td id="t13">right</td> </tr>
-			<tr> <td>left</td> <td>center</td> <td class="center right">right</td> </tr>
-			<tr> <td>left</td> <td>center</td> <td>right</td> </tr>
+			<tr> <td id="t11" class="left">left</td> <td id="t12" class="center">center</td> <td id="t13" class="right">right</td> </tr>
+			<tr> <td class="left">left</td> <td class="center">center</td> <td class="center right">right</td> </tr>
+			<tr> <td class="left">left</td> <td class="center">center</td> <td class="right">right</td> </tr>
 		</tbody>
 	</table>
 	<br/>
 
-	<table id="table-2">
+	<table id="table-2" class="middle">
 		<tbody>
 			<tr> <td colspan="6"></td> </tr>
 			<tr> <td rowspan="4"></td> <td></td> <td></td> <td></td> <td></td> <td></td> </tr>
@@ -43,7 +49,7 @@
 
 	<br/>
 	
-	<table id="table-3">
+	<table id="table-3" class="middle">
 		<tbody>
 			<tr style="background-color:green;"> <td></td></tr>
 			<tr><td id="t-image"> <img src="https://www2.d125.org/applied_arts/teched/courses/WEB/portfolios/2013_FallP3/Luthra%20Portfolio/images-1.jpeg"/> </td></tr>
